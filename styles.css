@@ -1,19 +1,55 @@
 
 
-.touringpics {
-    height: 300px;
-    width: 300px;
-    background-position: center;
-    background-size: cover;
-
-}
-
 .container1 {
     display: flex;
 } 
 
 .touringpics {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     border: 1px dotted black;
+}
+
+.container2 {
+    display: flex;
 } 
+
+.eat-drinkpics {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border: 1px dotted black;
+}
+
+.container3 {
+    display: flex;
+} 
+
+.sleepingpics {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border: 1px dotted black;
+}
+
+#testpic {
+    background-image: style="background-image: url(https://i.imgur.com/19pkvOf.png)" 
+}
+
+img {
+    width: 50%;
+    height: auto;  
+}
+
+
+
