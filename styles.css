@@ -1,0 +1,19 @@
+
+
+.touringpics {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container1 {
+    display: flex;
+} 
+
+.touringpics {
+    display: flex;
+    justify-content: center;
+    border: 1px dotted black;
+} 
