@@ -8,9 +8,9 @@ body {
 nav {
   background-color: black;
   opacity: .8;
-  -webkit-box-shadow: -1px -4px 16px 8px rgba(0,0,0,0.75);
-  -moz-box-shadow: -1px -4px 16px 8px rgba(0,0,0,0.75);
-  box-shadow: -1px -4px 16px 8px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px -4px 16px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -4px 16px 8px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -4px 16px 8px rgba(0, 0, 0, 0.75);
 }
 
 #logo {
@@ -23,6 +23,7 @@ nav {
 #three-lines {
   max-width: 40px;
   height: auto;
+  width: 100%;
 }
 
 #aztec-icon {
@@ -45,13 +46,10 @@ nav {
   color: rgba(221, 211, 211, 0.932);
 }
 
-.navbar-toggler:focus, .navbar-toggler:active {
+.navbar-toggler:focus,
+.navbar-toggler:active {
   outline: none;
   box-shadow: none;
-}
-
-.fill {
-  height: 800px;
 }
 
 /* Carousel */
@@ -72,11 +70,11 @@ nav {
   opacity: 0.7;
 }
 
-.text-container > p {
+.text-container>p {
   font-size: 18px;
 }
 
-.text-container > h2 {
+.text-container>h2 {
   font-weight: bolder;
 }
 
@@ -88,7 +86,7 @@ nav {
   background-image: url("/media/foto-2.jpg");
 }
 
-.text-container > hr {
+.text-container>hr {
   width: 100px;
   background-color: white;
   border: solid 3px white;
@@ -103,6 +101,20 @@ footer {
   justify-content: space-evenly;
   background-color: black;
   padding: 40px 5px;
+}
+
+.footer-links-container {
+  display: flex;
+  width: 66vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-wcs-container {
+  display: flex;
+  width: 33vh;
+  justify-content: start;
+  align-items: center;
 }
 
 .footer-col {
@@ -122,7 +134,7 @@ footer {
   margin: 0;
 }
 
-.footer-col > hr {
+.footer-col>hr {
   width: 30px;
   background-color: white;
   border: solid 1px white;
@@ -159,7 +171,7 @@ footer {
   display: flex;
   display: flex;
   flex-wrap: wrap;
-} 
+}
 
 .tourpics-row {
   width: 25vw;
@@ -188,8 +200,8 @@ footer {
 
 @media screen and (max-width: 900px) {
   .tourpics-row {
-      width: 50vw;
-      height: 50vw
+    width: 50vw;
+    height: 50vw
       /* border: 0% 3%;        
       margin-bottom: 3px; */
   }
@@ -197,16 +209,15 @@ footer {
 
 @media screen and (max-width: 500px) {
   .tourpics-row {
-      width: 100vw;
-      height: 100vw
-      /* margin-bottom: 15px; */
+    width: 100vw;
+    height: 100vw
   }
 }
 
 
 .container2 {
   display: flex;
-} 
+}
 
 .eat-drinkpics {
   height: 300px;
@@ -220,7 +231,7 @@ footer {
 
 .container3 {
   display: flex;
-} 
+}
 
 .sleepingpics {
   height: 300px;
@@ -233,12 +244,12 @@ footer {
 }
 
 #testpic {
-  background-image: style="background-image: url(https://i.imgur.com/19pkvOf.png)" 
+  background-image: style="background-image: url(https://i.imgur.com/19pkvOf.png)"
 }
 
 img {
   width: 50%;
-  height: auto;  
+  height: auto;
 }
 
 
@@ -253,20 +264,37 @@ img {
 
 /* Media queries */
 
-@media screen and (max-width: 845px) { 
-  .carousel-inner > .carousel-item > img {
+@media screen and (max-width: 845px) {
+  .carousel-inner>.carousel-item>img {
     min-height: 500px;
     object-fit: cover;
   }
 }
 
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 700px) {
   #logo {
     font-weight: bolder;
     font-size: 25px;
   }
 
   #aztec-icon {
-    max-width: 35px; 
+    max-width: 35px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  footer {
+    flex-direction: column;
+    padding: 30px 5px;
+  }
+
+  .footer-links-container {
+    width: 100vw;
+  }
+
+  .footer-wcs-container {
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
   }
 }
