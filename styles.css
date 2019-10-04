@@ -1,18 +1,53 @@
 
-
-.container1 {
+.tour-container {
+    position: relative;
     display: flex;
+    display: flex;
+    flex-wrap: wrap;
 } 
 
-.touringpics {
-    height: 300px;
-    width: 300px;
+.tourpics-row {
+    width: 25vw;
+    height: 25vw;
     background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    border: 1px dotted black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0.2vw solid white;
 }
+
+.tourpics-row#tourpic1 {
+    background-image: url(https://i.imgur.com/19pkvOf.png);
+}
+
+.tourpics-row#tourpic2 {
+    background-image: url(https://i.imgur.com/VpAj0KZ.png);
+}
+
+.tourpics-row#tourpic3 {
+    background-image: url(https://i.imgur.com/N5HSlEY.png);
+}
+
+.tourpics-row#tourpic4 {
+    background-image: url(https://i.imgur.com/SivV5qf.png);
+}
+
+@media screen and (max-width: 900px) {
+    .tourpics-row {
+        width: 50vw;
+        height: 50vw
+        /* border: 0% 3%;        
+        margin-bottom: 3px; */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tourpics-row {
+        width: 100vw;
+        height: 100vw
+        /* margin-bottom: 15px; */
+    }
+}
+
 
 .container2 {
     display: flex;
