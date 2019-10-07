@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="contact.css">
+  <link rel="shortcut icon" type="image/png" href="../media/favicon.png" />
+  <title>Explore Arequipa</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg p-3">
+      <a class="navbar-brand" href="#" id="logo"><span><img class="pb-1" id="aztec-icon"
+            src="../media/aztec.png"></span>
+        Explore Arequipa</a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img id="three-lines" src="../media/3-line.png"></span>
+      </button>
+      <div id="navbarNav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="navbar-nav ml-auto text-right pr-3">
+          <li class="active">
+            <a class="nav-link font-weight-bold" href="#">Touring<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Eat&Drink</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Sleeping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Contact form -->
+    <div id="contact-container">
+      <h3 id="contact-text-rotated">Contact<span>
+          <hr></span></h3>
+      <h3 id="contact-text-not-rotated">Contact</h3>
+      <hr id="border">
+      <form>
+        <div class="input-field">
+          <div class="user-icon"></div>
+          <input class="input-field" placeholder="Name" type="text">
+        </div>
+        <div class="input-field">
+          <i class="mail-icon"></i>
+          <input class="input-field" placeholder="E-mail" type="text">
+        </div>
+        <div class="input-field">
+          <textarea rows="4" cols="50" placeholder="Show us the love..."></textarea>
+        </div>
+        <button id="submit-button">Submit</button>
+      </form>
+    </div>
+
+    <hr class="hr-neutral">
+    <h4>Or... come and visit us!</h4>
+    <!-- &#x1F61C; <- EMOJI-->
+    <hr id="border-1">
+    <p>Explore Arequipa</p>
+    <p>Wild Code School Lisbon - Web development training</p>
+    <p>Rua do Conde de Redondo 145 2º andar, 1150-104 Lisboa</p>
+    <!-- Google maps -->
+    <div class="mapouter">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.690539078951!2d-9.145890535648507!3d38.724913341067314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339e43d5d82f%3A0xf15ee6ad086fad6b!2sWild%20Code%20School%20Lisbon%20-%20Web%20development%20training!5e0!3m2!1sen!2spt!4v1570209400081!5m2!1sen!2spt"
+        width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+  </main>
+
+  <!-- footer -->
+
+  <footer>
+    <div class="footer-links-container">
+      <div class="footer-col">
+        <h6>The Company</h6>
+        <hr>
+        <p>About Us</p>
+        <p>The Team</p>
+        <p>Newsletter</p>
+      </div>
+      <div class="footer-col">
+        <h6>Legal</h6>
+        <hr>
+        <p>Privacy Policy</p>
+        <p>Terms of Use</p>
+        <p>Cookie Policy</p>
+      </div>
+      <div class="footer-col">
+        <h6>Follow Us</h6>
+        <hr>
+        <div class="social-links">
+          <p>Facebook</p>
+          <img class="social-icon" src="../media/fb.png" alt="FB logo">
+        </div>
+        <div class="social-links">
+          <p>Instagram</p>
+          <img class="social-icon" src="../media/insta.png" alt="Instagram logo">
+        </div>
+        <div class="social-links">
+          <p>Twitter</p>
+          <img class="social-icon" src="../media/twitter.png" alt="Twitter logo">
+        </div>
+      </div>
+    </div>
+    <div class="footer-wcs-container">
+      <div class="footer-col">
+        <p id="copy-right"><span><img id="wcs-icon" src="../media/wcs.png" alt="WCS"></span> Bootcamp 10/2019 ©</p>
+        <hr>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Javascript  -->
+  <script src="../main.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
