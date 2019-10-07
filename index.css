@@ -23,6 +23,7 @@ nav {
 #three-lines {
   max-width: 40px;
   height: auto;
+  width: 100%;
 }
 
 #aztec-icon {
@@ -49,10 +50,6 @@ nav {
 .navbar-toggler:active {
   outline: none;
   box-shadow: none;
-}
-
-.fill {
-  height: 800px;
 }
 
 /* Carousel */
@@ -104,6 +101,20 @@ footer {
   justify-content: space-evenly;
   background-color: black;
   padding: 40px 5px;
+}
+
+.footer-links-container {
+  display: flex;
+  width: 66vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-wcs-container {
+  display: flex;
+  width: 33vh;
+  justify-content: start;
+  align-items: center;
 }
 
 .footer-col {
@@ -245,10 +256,8 @@ footer {
   .tourpics-row {
     width: 100vw;
     height: 100vw
-      /* margin-bottom: 15px; */
   }
 }
-
 
 .container2 {
   display: flex;
@@ -314,5 +323,54 @@ img {
 
   #aztec-icon {
     max-width: 35px;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  #logo {
+    font-weight: bolder;
+    font-size: 22px;
+  }
+
+  #aztec-icon {
+    max-width: 25px;
+  }
+
+  #three-lines {
+    max-width: 30px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #logo {
+    font-weight: bolder;
+    font-size: 18px;
+  }
+
+  #aztec-icon {
+    max-width: 25px;
+  }
+
+  #three-lines {
+    max-width: 30px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+    padding: 30px 5px;
+  }
+
+  .footer-links-container {
+    width: 100vw;
+  }
+
+  .footer-wcs-container {
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
   }
 }
