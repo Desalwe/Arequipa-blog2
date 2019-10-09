@@ -16,9 +16,10 @@ nav {
 
 #logo {
   color: white;
-  font-family: 'Charm', cursive;
+  font-family: 'Indie Flower', cursive;
   font-weight: bolder;
   font-size: 30px;
+  padding-left: 30px;
 }
 
 #three-lines {
@@ -30,6 +31,7 @@ nav {
 #aztec-icon {
   max-width: 50px;
   height: auto;
+  margin-right: 5px;
   justify-self: end;
 }
 
