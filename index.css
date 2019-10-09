@@ -158,11 +158,11 @@ footer {
   color: white;
 }
 
-.social-links > a {
+.social-links>a {
   color: white;
   font-size: 10px;
-  margin-bottom: 16px; 
-  cursor: pointer; 
+  margin-bottom: 16px;
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -182,34 +182,13 @@ footer {
 
 /* Alex's part */
 
-/* Added by Nuno */
-.hr-neutral {
-  border: solid 1px rgb(204, 204, 184);
-  background-color: rgb(204, 204, 184);
-  width: 80%;
-  margin: 30px auto 10px auto;
-}
-
-#border-1 {
-  width: auto;
-  background-color: black;
-  border: solid 2px black;
-  width: 20%;
-  margin: 0 auto 30px auto;
-}
-
-.row-titles {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
 /* touring section */
 
 .tour-container {
-  position: relative;
-  display: flex;
+  /* position: relative; */
   display: flex;
   flex-wrap: wrap;
+  width: 100vw;
 }
 
 .tourpics-row {
@@ -221,20 +200,58 @@ footer {
   border: 0.2vw solid white;
 }
 
+/* tourpics */
+
 .tourpics-row#tourpic1 {
-  background-image: url(media/Homepage-squares/cliff.png);
+  background-image: url(media/Homepage-squares/Touring/street-tours.png);
 }
 
 .tourpics-row#tourpic2 {
-  background-image: url(media/Homepage-squares/eagle.png);
+  background-image: url(media/Homepage-squares/Touring/mountain.png);
 }
 
 .tourpics-row#tourpic3 {
-  background-image: url(media/Homepage-squares/field.png);
+  background-image: url(media/Homepage-squares/Touring/activities.png);
 }
 
 .tourpics-row#tourpic4 {
-  background-image: url(media/Homepage-squares/fountain.png);
+  background-image: url(media/Homepage-squares/Touring/architecture.png);
+}
+
+/* eat&drink pics */
+
+.tourpics-row#eatdrinkpic1 {
+  background-image: url(media/Homepage-squares/EatDrink/Dimas.png);
+}
+
+.tourpics-row#eatdrinkpic2 {
+  background-image: url(media/Homepage-squares/EatDrink/Accai.png);
+}
+
+.tourpics-row#eatdrinkpic3 {
+  background-image: url(media/Homepage-squares/EatDrink/Fruit.png);
+}
+
+.tourpics-row#eatdrinkpic4 {
+  background-image: url(media/Homepage-squares/EatDrink/Bar.png);
+}
+
+/* sleep pics */
+
+.tourpics-row#sleeppic1 {
+  background-image: url(media/Homepage-squares/Sleeping/Hotel-3.png);
+}
+
+.tourpics-row#sleeppic2 {
+  background-image: url(media/Homepage-squares/Sleeping/High-end.png);
+}
+
+.tourpics-row#sleeppic3 {
+  background-image: url(media/Homepage-squares/Sleeping/Hotel-2.png);
+}
+
+.tourpics-row#sleeppic4 {
+  background-image: url(media/Homepage-squares/Sleeping/Hotel-1.png);
 }
 
 .tourpics-row-text {
@@ -248,25 +265,25 @@ footer {
   opacity: 0;
 }
 
-.pic-button{
-  background:transparent;
+.pic-button {
+  background: transparent;
   border: 1.5px solid white;
   box-sizing: border-box;
   cursor: pointer;
-  font-size: 160%; 
+  font-size: 160%;
   color: white;
   line-height: 1;
   margin: 18px;
   padding: 10px 15px;
   text-align: center;
-  position:relative;
+  position: relative;
   -webkit-transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
   -ms-transition: all 0.2s ease-in-out 0s;
-   transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
-.text-hover {  
+.text-hover {
   opacity: 0;
 }
 
@@ -274,16 +291,14 @@ footer {
   opacity: 0.9;
   background-color: rgba(0, 0, 0, 0.5);
   transition: all .2s ease;
--webkit-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 
 .pic-button:hover {
   border: 1.5px solid lightslategrey;
   color: lightslategrey;
   text-decoration: none;
-  
 }
-
 
 .tourpic-text {
   position: absolute;
@@ -294,70 +309,28 @@ footer {
 .row-titles {
   color: rgba(0, 0, 0, 0.75);
   margin: 0;
-  padding: 10px;
+  padding: 50px;
   text-align: center;
   font-size: 6vw;
 }
 
-
-
-
-.container2 {
-  display: flex;
-}
-
-.eat-drinkpics {
-  height: 300px;
-  width: 300px;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  border: 1px dotted black;
-}
-
-.container3 {
-  display: flex;
-}
-
-.sleepingpics {
-  height: 300px;
-  width: 300px;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  border: 1px dotted black;
-}
-
-#testpic {
-  background-image: style="background-image: url(https://i.imgur.com/19pkvOf.png)"
-}
-
-img {
-  width: 50%;
-  height: auto;
-}
-
-
-
 /* Back to top button */
 #b2t {
-  display: none; 
-  position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
-  z-index: 99; 
-  border: none; 
-  outline: none; 
-  background-color: rgba(241, 221, 221, 0.644); 
-  cursor: pointer; 
-  padding: 15px; 
-  border-radius: 50px; 
-  font-size: 18px; 
-  -webkit-box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.53);
-  -moz-box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.53);
-  box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.53);
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(241, 221, 221, 0.644);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 18px;
+  -webkit-box-shadow: 0px 0px 19px -2px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 0px 19px -2px rgba(0, 0, 0, 0.53);
+  box-shadow: 0px 0px 19px -2px rgba(0, 0, 0, 0.53);
 }
 
 #b2t:hover {
@@ -369,10 +342,6 @@ img {
   height: 30px;
   width: auto;
 }
-
-
-
-
 
 
 /* Media queries */
@@ -443,6 +412,8 @@ img {
     padding-top: 10px;
   }
 }
+
+/* Alex's */
 
 @media screen and (max-width: 1000px) {
   .tourpics-row {
