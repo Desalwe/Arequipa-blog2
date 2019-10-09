@@ -15,7 +15,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg p-3">
-      <a class="navbar-brand" href="#" id="logo"><span><img class="pb-1" id="aztec-icon"
+      <a class="navbar-brand" href="/" id="logo"><span><img class="pb-1" id="aztec-icon"
             src="../media/aztec.png"></span>
         Explore Arequipa</a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -24,16 +24,16 @@
       </button>
       <div id="navbarNav" class="collapse navbar-collapse">
         <ul id="nav-list" class="navbar-nav ml-auto text-right pr-3">
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="/#touring">Touring<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="/#eat&drink">Eat&Drink</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="/#sleep">Sleeping</a>
+          </li>
           <li class="active">
-            <a class="nav-link font-weight-bold" href="#">Touring<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Eat&Drink</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Sleeping</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#">Contact</a>
           </li>
         </ul>
@@ -49,17 +49,17 @@
           <hr></span></h3>
       <h3 id="contact-text-not-rotated">Contact</h3>
       <hr id="border">
-      <form>
+      <form action="/rick-roll/rickroll.html">
         <div class="input-field">
           <div class="user-icon"></div>
-          <input class="input-field" placeholder="Name" type="text">
+          <input class="input-field" placeholder="Name" type="text" required></input>
         </div>
         <div class="input-field">
           <i class="mail-icon"></i>
-          <input class="input-field" placeholder="E-mail" type="text">
+          <input class="input-field" placeholder="E-mail" type="email" required></input>
         </div>
         <div class="input-field">
-          <textarea rows="4" cols="50" placeholder="Show us the love..."></textarea>
+          <textarea rows="4" cols="50" placeholder="Show us the love..." required></textarea>
         </div>
         <button id="submit-button">Submit</button>
       </form>
@@ -103,15 +103,15 @@
         <h6>Follow Us</h6>
         <hr>
         <div class="social-links">
-          <p>Facebook</p>
+          <a target="_blank" href="https://www.facebook.com/wildcodeschoolportugal/">Facebook</a>
           <img class="social-icon" src="../media/fb.png" alt="FB logo">
         </div>
         <div class="social-links">
-          <p>Instagram</p>
+          <a target="_blank" href="https://www.instagram.com/wildcodeschoolofficial/">Instagram</a>
           <img class="social-icon" src="../media/insta.png" alt="Instagram logo">
         </div>
         <div class="social-links">
-          <p>Twitter</p>
+          <a target="_blank" href="https://twitter.com/wildcodeschool">Twitter</a>
           <img class="social-icon" src="../media/twitter.png" alt="Twitter logo">
         </div>
       </div>
