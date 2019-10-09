@@ -15,7 +15,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg p-3">
-      <a class="navbar-brand" href="#" id="logo"><span><img class="pb-1" id="aztec-icon" src="./media/aztec.png"></span>
+      <a class="navbar-brand" href="/" id="logo"><span><img class="pb-1" id="aztec-icon" src="./media/aztec.png"></span>
         Explore Arequipa</a>
       <!-- <div id="links-social"> -->
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -24,17 +24,17 @@
       </button>
       <div id="navbarNav" class="collapse navbar-collapse">
         <ul id="nav-list" class="navbar-nav ml-auto text-right pr-3">
-          <li class="active">
-            <a class="nav-link font-weight-bold" href="#">Touring<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#touring">Touring<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Eat&Drink</a>
+            <a class="nav-link font-weight-bold" href="#eat&drink">Eat&Drink</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Sleeping</a>
+            <a class="nav-link font-weight-bold" href="#sleep">Sleeping</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Contact</a>
+            <a class="nav-link font-weight-bold" href="/contact/contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -47,6 +47,7 @@
       <ol class="carousel-indicators">
         <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner text-center">
         <div id="img1" class="carousel-item active">
@@ -67,6 +68,15 @@
             </div>
           </div>
         </div>
+        <div id="img3" class="carousel-item">
+          <div class="flex-column d-flex h-100 align-items-center justify-content-center text-white">
+            <div class="text-container">
+              <h2>Discover the White City</h2>
+              <hr>
+              <p>The perfect mix of colonial grandeur and natural beauty</p>
+            </div>
+          </div>
+        </div>
 
       </div>
       <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
@@ -79,11 +89,11 @@
       </a>
     </div>
 
-
     <!-- Touring section-->
-    <section>
+    <section id="touring">
       <container>
-        <H1 class="row-titles">Touring</H1>
+        <h1 class="row-titles">Touring</h1>
+        <!-- <hr id="border-1"> -->
       </container>
 
       <container class="tour-container">
@@ -114,11 +124,14 @@
       </container>
     </section>
 
+    <!-- <hr class="hr-neutral"> -->
+
+
     <!-- Eat & Drink section-->
-    
-    <section>
+    <section id="eat&drink">
       <container>
-        <H1 class="row-titles">Eating & Drinking</H1>
+        <h1 class="row-titles">Eating & Drinking</h1>
+        <!-- <hr id="border-1"> -->
       </container>
 
       <container class="tour-container">
@@ -149,14 +162,17 @@
       </container>
     </section>
 
+    <!-- <hr class="hr-neutral"> -->
+
+
     <!-- Sleeping section-->
-    
-    <section>
+    <section id="sleep">
       <container>
-        <H1 class="row-titles">Sleeping</H1>
+        <h1 class="row-titles">Sleeping</h1>
+        <!-- <hr id="border-1"> -->
       </container>
 
-      <container class="tour-container">
+      <container id="sleep" class="tour-container">
         <div class="tourpics-row" id="sleeppic1">
           <div class="tourpics-row-text text-hover">
             <a class="pic-button pic-link" href="/rick-roll/rickroll.html">more info</a>
@@ -184,7 +200,10 @@
       </container>
       <br>
     </section>
-  </main> 
+  </main>
+
+  <!-- back to top -->
+  <button id="b2t" title="Go to top"><span><img src="/media/arrow.png" alt="Arrow up"></span></button>
 
   <!-- footer -->
 
@@ -208,15 +227,15 @@
         <h6>Follow Us</h6>
         <hr>
         <div class="social-links">
-          <p>Facebook</p>
+          <a target="_blank" href="https://www.facebook.com/wildcodeschoolportugal/">Facebook</a>
           <img class="social-icon" src="./media/fb.png" alt="FB logo">
         </div>
         <div class="social-links">
-          <p>Instagram</p>
+          <a target="_blank" href="https://www.instagram.com/wildcodeschoolofficial/">Instagram</a>
           <img class="social-icon" src="./media/insta.png" alt="Instagram logo">
         </div>
         <div class="social-links">
-          <p>Twitter</p>
+          <a target="_blank" href="https://twitter.com/wildcodeschool">Twitter</a>
           <img class="social-icon" src="./media/twitter.png" alt="Twitter logo">
         </div>
       </div>
@@ -230,6 +249,7 @@
 
   </footer>
 
+  <script src="main.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -243,24 +263,3 @@
 </body>
 
 </html>
-
-
-
-
-<!-- 
-<div class="touringpics">
-        <div style="background-image: url(https://i.imgur.com/19pkvOf.png); width: 100%; height: 100%;"></div>
-        <div>Touring pic</div>
-    </div>
-    <div class="touringpics">
-        <div style="background-image: url(https://i.imgur.com/VpAj0KZ.png)"></div>
-        <div>Touring pic</div>
-    </div>
-    <div class="touringpics">
-        <div style="background-image: url(https://i.imgur.com/N5HSlEY.png)"></div>
-        <div>Touring pic</div>
-    </div>
-    <div class="touringpics">
-        <div style="background-image: url(https://i.imgur.com/SivV5qf.png)"></div>
-        <div>Touring pic</div>
-    </div> -->

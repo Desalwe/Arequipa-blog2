@@ -1,6 +1,6 @@
 body {
   font-family: 'Questrial', sans-serif;
-  background-color: beige;
+  background-color: rgb(248, 248, 233);
 }
 
 
@@ -249,6 +249,14 @@ footer {
   justify-content: space-around;
 }
 
+.social-links > a {
+  color: white;
+  font-size: 10px;
+  margin-bottom: 16px; 
+  cursor: pointer; 
+  text-decoration: none;
+}
+
 #copy-right {
   font-size: 14px;
   font-weight: bold;
@@ -296,7 +304,7 @@ footer {
   }
 
   h3 {
-    font-size: 55px;
+    font-size: 45px;
   }
 }
 
