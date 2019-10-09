@@ -6,13 +6,15 @@ nav {
   -webkit-box-shadow: -1px -4px 16px 8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px -4px 16px 8px rgba(0, 0, 0, 0.75);
   box-shadow: -1px -4px 16px 8px rgba(0, 0, 0, 0.75);
+  margin-bottom: 27px;
 }
 
 #logo {
   color: white;
-  font-family: 'Charm', cursive;
+  font-family: 'Indie Flower', cursive;
   font-weight: bolder;
   font-size: 30px;
+  padding-left: 30px;
 }
 
 #three-lines {
@@ -24,6 +26,7 @@ nav {
 #aztec-icon {
   max-width: 50px;
   height: auto;
+  margin-right: 5px;
   justify-self: end;
 }
 
@@ -51,6 +54,7 @@ nav {
   max-height: 100%;
   max-width: 100%;
 }
+
 .card-body {
   max-height: 50%;
   max-width: 100%;
@@ -59,6 +63,8 @@ nav {
   max-height: 100%;
   max-width: 100%;
   border: 0px;
+  margin-bottom: 27px;
+
 }
 
 /* Footer */
