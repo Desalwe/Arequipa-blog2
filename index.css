@@ -132,7 +132,7 @@ footer {
 }
 
 .footer-col p {
-  font-size: 10px;
+  font-size: 13px;
   cursor: pointer;
 }
 
@@ -162,7 +162,7 @@ footer {
 
 .social-links>a {
   color: white;
-  font-size: 10px;
+  font-size: 13px;
   margin-bottom: 16px;
   cursor: pointer;
   text-decoration: none;
