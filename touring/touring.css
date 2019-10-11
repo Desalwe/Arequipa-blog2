@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(235, 217, 217, 0.89)!important;
+  background-color: rgba(253,253,200, 0.5)!important;
 }
 
 /* Navbar */
@@ -10,7 +10,7 @@ nav {
   -webkit-box-shadow: -1px -4px 16px 8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px -4px 16px 8px rgba(0, 0, 0, 0.75);
   box-shadow: -1px -4px 16px 8px rgba(0, 0, 0, 0.75);
-  margin-bottom: 27px;
+  /* margin-bottom: 27px; */
 }
 
 #logo {
@@ -54,6 +54,23 @@ nav {
   box-shadow: none;
 }
 
+
+/* Page title */
+.row-titles {
+  color: rgba(0, 0, 0, 0.75);
+  margin: 0px;
+  margin-top: 40px;
+  /* padding: 50px; */
+  text-align: center;
+  font-size: 4vw;
+}
+
+.title-hr {
+  width: 50vw;
+  border: solid 0.7px #e66b68;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 
 /* Footer */
 
@@ -167,7 +184,7 @@ footer {
 /* Cards */
 
 .card-deck {
-  padding-top: 50px;
+  padding-top: 20px;
   max-height: 100%;
   max-width: 100%;
   border: 0px;
@@ -218,6 +235,9 @@ footer {
   .card {
     padding-bottom: 15px;
   }
+  .row-titles {
+    font-size: 5vw;
+  }
 }
 
 @media screen and (max-width: 630px) {
@@ -236,6 +256,7 @@ footer {
     width: 100%;
     padding-top: 10px;
   }
+
 }
 
 @media screen and (max-width: 451px) {
