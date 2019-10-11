@@ -187,16 +187,21 @@ footer {
 /* touring section */
 
 .tour-container {
-  /* position: relative; */
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 25vw;
+  height: 25vw; 
+  /* Should these bottom two be here? */
 }
 
 .tourpics-row {
   width: 25%;
+  height: 0;
+  padding-bottom: 25%;
+  /* width: 25%;
+  height: 25vw; */
   height: 100%;
+  /* the height and width? */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
