@@ -370,6 +370,7 @@ footer {
   #logo {
     font-weight: bolder;
     font-size: 22px;
+    padding-left: 10px;
   }
 
   #aztec-icon {
